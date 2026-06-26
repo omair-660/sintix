@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>sintix</title>
+        <link rel="shortcut icon" href="images/g-1.jpg" type="image/x-icon">
         <link rel="stylesheet" href="icons/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,8 +20,8 @@
             </div>
         </a>
         <input type="checkbox" name="" id="sun" hidden>
-        <label class="sun" for="sun">
-            <i class="fa-solid fa-sun"></i>
+        <label title="change mode" class="sun" for="sun">
+            <i class="fa-solid fa-circle-half-stroke"></i>
         </label>
 <main>
     <header> 
@@ -52,10 +53,24 @@
                                         <a href="#">list one</a>
                                     </li>
                                     <li>
+                                        <a href="#">list tow</a>
+                                    </li>
+                                    <li style="position: relative;">
+                                        <a href="#">list three</a>
+                                        <i style="color: #5f5f5f;font-size: 13px; position: absolute; right: 10px; top: 50%;transform: translateY(-50%);" class="fa-solid fa-angle-right"></i>
+                                          <div class=" list-2">
+                                <ul>
+                                    <li>
                                         <a href="#">list one</a>
                                     </li>
                                     <li>
-                                        <a href="#">list one</a>
+                                        <a href="#">list tow</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">list three</a>
+                                    </li>
+                                </ul>
+                            </div>
                                     </li>
                                 </ul>
                             </div>
@@ -728,6 +743,8 @@
         </div>
     </footer>
 </main>
-
+<div class="load">
+    <div class="loader"></div>
+</div>
 </body>
 </html>
