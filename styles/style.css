@@ -67,6 +67,7 @@ nav{
     color: rgb(184, 6, 6);
     font-size: 20px;
     font-weight: 700;
+    z-index: 9999;
 }
 
 
@@ -1267,7 +1268,9 @@ footer .copy-right p i{
     color: var(--item-color);
 }
 #sun:checked ~ main header h1, 
+#sun:checked ~ main .nav-menu ul li i,
 #sun:checked ~ main .video  h4, 
+#sun:checked ~ main .nav-menu .icons i, 
 #sun:checked ~ main .video  i {
     color: var(--light-color);
 }
@@ -1290,6 +1293,7 @@ footer .copy-right p i{
 #sun:checked ~ main .video::before,
 #sun:checked ~ main  footer::after, 
 #sun:checked ~ main  .blog::before,
+#sun:checked ~ main   .nav-menu .logo,
 #sun:checked ~ main  .latest::after{
     filter: brightness(30);
 }
