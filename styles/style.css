@@ -299,19 +299,29 @@ nav .container .data .bottom > ul > li .list li:last-child:hover .list-2{
     top: 10%;
     visibility: visible;
     opacity: 1;
-    left: 105%;
+    left: 101%;
     padding: 15px 0;
-        height: 170px;
+    height: 200px;
     overflow: visible;
 
+}
+nav .container .data .bottom > ul > li .list li:last-child i{
+color: #5f5f5f;font-size: 13px; position: absolute; 
+right: 10px; 
+top: 50%;
+transform: translateY(-50%);
+}
+nav .container .data .bottom > ul > li .list li:last-child:hover i{
+    transform: rotate(90deg);
+    color: var(--main-color);
+    /* top: 30px; */
 }
 nav .container .data .bottom > ul > li:hover .list{
     visibility: visible;
     opacity: 1;
     top: 100%;
     padding: 15px 0;
-                height: 180px;
-
+    height: 200px;
     overflow: visible;
 
 }
@@ -324,6 +334,7 @@ nav .container .data .bottom .list ul li ,.list-2 ul li{
 }
 nav .container .data .bottom .list ul li:hover > a ,.list-2 ul li:hover > a{
     color: var(--main-color);
+    transform: translateX(50px);
 }
 
 nav .container .data .bottom .list ul li:not(:last-child){
@@ -1117,7 +1128,7 @@ footer .container .item form input{
     padding: 10px 20px;
     border: 1px solid var(--dark-color);
     border-radius: 5px;
-        transition: 0.5s;
+    transition: 0.5s;
     color: var(--light-color);
     outline: none;
 }
